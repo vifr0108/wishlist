@@ -1,0 +1,5 @@
+*.sqlite3
+.idea
+.py[cod]
+__pycache__/
+.vscode
