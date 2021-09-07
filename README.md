@@ -1,7 +1,7 @@
 # Wishlist django project
 
 ## Development. Step by step
-Start django project
+Start project
 - startproject (name wishlist) - create project
 - startapp (name main) - create application
 
