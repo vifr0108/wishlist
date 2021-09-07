@@ -1,4 +1,4 @@
-# Wishlist project
+# Wishlist django project
 
 ## Development. Step by step
 Start django project
