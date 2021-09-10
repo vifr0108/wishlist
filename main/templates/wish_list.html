@@ -4,8 +4,12 @@
     <h1>Я хочу что бы мне подарили: </h1>
 
     {% if is_owner_list %}
-    <input type="text" placeholder="Добавить желание"><br>
-    {% endif%}
+    <!--<input type="text" placeholder="Добавить желание"><br>-->
+        <form method="POST"> {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit">ADD </button>
+        </form>
+    {% endif %}
 
     {% for product in wishlist.product.all %}
         <a href="{{ product.link}}">{{ product.title }}</a><br>

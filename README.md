@@ -21,3 +21,8 @@ Create admin console for work with db
 Configure settings.py
 - add main to INSTALLED_APPS 
 - SECRET_KEY move to .env file
+
+NOTE:
+- Activate venv is not in PyCharm
+- Error code 500 must not be present (internal error server)
+- csrf_token - protection from brute force
